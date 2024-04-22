@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="icono" href="./img/icono.ico">
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body>
+    <header>
+        <img src="./img/descarga.png" alt="Logo" width="80">
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h1>Hola mundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eum officiis error ratione quaerat
+            deleniti quia impedit ea quod modi. Corrupti, ratione magni beatae nobis ducimus fugiat ab voluptatem error.
+        </p>
+        <p>Listas desordenadas</p>
+        <ul>
+            <li>Uno</li>
+            <li>Dos</li>
+            <li>Tres</li>
+        </ul>
+
+        <p>Listas ordenadas</p>
+        <ol>
+            <li>Primero</li>
+            <li>Segundo</li>
+            <li>Tercero</li>
+        </ol>
+        <h2>Lista desordenada dependiente</h2>
+        <ul>
+            <li>Semana</li>
+            <ul>
+                <li>Lunes</li>
+                <li>Martes</li>
+                <ul>
+                    <li>Sol</li>
+                    <li>Lluvia</li>
+                </ul>
+                <li>Clima</li>
+            </ul>
+            <li>Miercoles</li>
+            <ul>
+                <li>Sol</li>
+                <li>Tormenta</li>
+            </ul>
+            <li>Jueves</li>
+        </ul>
+        <h3>Listas de definicion</h3>
+        <p><b>Alimentos lacteos</b></p>
+        <dl>
+            <dt>Lecha</dt>
+            <dd>Descremada</dd>
+            <dd>Entera</dd>
+            <dt>Queso</dt>
+            <dd>Mozzarella</dd>
+            <dd>Regianito</dd>
+        </dl>
+        <a href="https://www.google.com/?hl=es">Ir a buscador Google</a>
+        <i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quam reiciendis dolorem, consectetur
+            voluptates assumenda. Obcaecati eaque nihil laboriosam! Assumenda dolore deserunt quaerat deleniti doloribus
+            asperiores delectus dignissimos corrupti ea?</i>
+        <img src="./img/descarga.png" alt="Homero Simpson">
+        <h3>Tabla pero se maqueta con CSS</h3>
+        <table>
+            <tr>
+                <th>Dia</th>
+                <th>Mes</th>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Agosto</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Octubre</td>
+            </tr>
+        </table>
+        <table border="2">
+            <tr>
+                <td>Item</td>
+                <td colspan="2">Item Doble</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Atrr</td>
+                <td>Item</td>
+                <td>Item</td>
+            </tr>
+            <tr>
+                <td>Item</td>
+                <td>Item</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <hr>
+        <h4><em>Formulario</em></h4>
+        <form action="show_data.html" method="get o post" target="_blank">
+            <fieldset>
+                <legend>Formulario de prueba</legend>
+                <label for="nombre">Nombre:</label>
+                <input size="30" type="text" name="nombre" id="nombre" placeholder="Roberto">
+                <br>
+                <label for="email">Correo: </label>
+                <input size="30" type="email" name="email" id="email" placeholder="renzo@renzo.com">
+                <br>
+                <label for="contraseña">Contraseña: </label>
+                <input type="password" name="clave" size="25" id="contraseña">
+                <label for="consulta">Comentarios: </label>
+                <textarea name="comentarios" id="consulta" cols="30" rows="10">Escribinos</textarea>
+                <label for="seleccion">Seleccione: </label>
+                <select name="Dias" id="seleccion">
+                    <option value="">Lunes</option>
+                    <option value="">Martes</option>
+                    <option value="">Miercoles</option>
+                </select>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+        </form>
+        </fieldset>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.493662884779!2d-58.3295197!3d-34.6927266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a332f7440faac3%3A0xce141b4b3a6ba72b!2sParque%20Dom%C3%ADnico!5e0!3m2!1ses-419!2sar!4v1711042933762!5m2!1ses-419!2sar"
+            width="250" height="200">Mapa de Parque Dominico</iframe>
+        <hr>
+    </footer>
+</body>
+
+</html>
